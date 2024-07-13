@@ -28,6 +28,6 @@ def add_link(request):
     else:
         form = LinkForm()
     context = {
-        "form" : form
+        "form" : form 
     }
     return render(request, 'links/create.html', context)
